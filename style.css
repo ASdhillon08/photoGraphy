@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 80.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow: hidden;
+    transition: 02s linear !important;
+  }
+
 .container {
     width: 100%;
     border: 1px solid rgb(13, 13, 13);
@@ -13,7 +23,7 @@
 .logo {
    width: 50%;
    height: auto;
-   border: 2px solid coral;
+   /* border: 2px solid coral; */
    overflow: hidden;
    background-position: center;
    background-size: cover;
@@ -26,7 +36,7 @@
 }
 .nav_side {
     width: 50%;
-    background: rgb(163, 160, 160);
+    /* background: rgb(163, 160, 160); */
 }
 .nav_menu {
     /* background: #fff; */
@@ -88,3 +98,142 @@
     margin-top: 40px;
     border-radius: 40px;
 }
+
+/* Section Two Css */
+.heading {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family:'Poppins', sans-serif;
+    align-items: center;
+    align-content: center;
+    margin: 10px 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    text-decoration-line: underline;
+    text-decoration-style:solid;
+    text-decoration-color: rgb(164, 24, 24);
+}
+.second_sec {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.projects_container {
+    /* background-color: rgb(245, 243, 243); */
+    width: 100%;
+
+    /* make two columns using flex box. */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.project_type {
+    /* border: 1px solid rgb(62, 62, 59); */
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 10px 10px;
+    
+}
+.label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+.project_type img{
+    width: 300px;
+    flex-shrink: 0;
+
+}
+
+/* contact me section */
+.third_sec {
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.contact_heading {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    font-size: 3rem;
+}
+
+.contact_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+.contact_details {
+    width: 60%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex
+
+}
+.firstLastName {
+    display: flex;
+}
+.firstLastName input {
+    width: 44%;
+    margin: 10px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border-top-style: none;
+    border-color: rgb(126, 124, 124);
+    
+}
+
+.email_container {
+    width: 100%;
+}
+.email_container input {
+    width: 90%;
+    margin: 20px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border-top-style: none;
+    border-color: rgb(126, 124, 124);
+}
+.textarea_container textarea {
+    width: 90%;
+    margin: 20px;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border-top-style: none;
+    border-color: rgb(126, 124, 124);
+}
+.lets_talk_section {
+    width: 40%;
+    margin: 10px 5px;
+
+}
+.lets_talk {
+    font-size: large;
+    font-family: poppins;
+    top: 0;
+}
+.lets_talk_section>p{
+    font-family: poppins, sans-serif;
+}
+
