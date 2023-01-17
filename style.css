@@ -122,7 +122,6 @@ html {
 }
 
 .projects_container {
-    /* background-color: rgb(245, 243, 243); */
     width: 100%;
 
     /* make two columns using flex box. */
@@ -133,7 +132,6 @@ html {
     justify-content: space-around;
 }
 .project_type {
-    /* border: 1px solid rgb(62, 62, 59); */
     object-fit: cover;
     overflow: hidden;
     display: flex;
@@ -156,20 +154,19 @@ html {
 .project_type img{
     width: 300px;
     flex-shrink: 0;
-
 }
 
 /* contact me section */
 .third_sec {
     padding: 20px;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
 .contact_heading {
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px 20px;
+    margin: 10px 10px;
     font-size: 3rem;
 }
 
@@ -178,54 +175,71 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid green; */
-}
+   }
 .contact_details {
     width: 60%;
     margin: 10px 10px;
     display: flex;
     flex-direction: column;
-    flex
+    padding: 5px 10px;
+    margin: 10px 5px;
 
 }
+
+.contact_details::after {
+    content: "";
+    height: 25%;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    background: rgb(161, 161, 162);
+    width: 0.5px;
+    z-index: -20;
+    left: 57%;
+    margin-left: 5px;
+}
+
 .firstLastName {
     display: flex;
-}
-.firstLastName input {
-    width: 44%;
-    margin: 10px;
-    outline: none;
-    padding: 5px;
-    border-radius: 10px;
-    border-top-style: none;
-    border-color: rgb(126, 124, 124);
+    width: 100%;
+    height: 40px;
+    position: relative;
     
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 5px 2px;
+    margin: 1px;
+    outline: none;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
 }
 
 .email_container {
+    left: 0;
     width: 100%;
+    height: 40px;
+    position: relative;
+    overflow-x: hidden;
+
 }
-.email_container input {
-    width: 90%;
-    margin: 20px;
-    outline: none;
-    padding: 5px;
-    border-radius: 10px;
-    border-top-style: none;
-    border-color: rgb(126, 124, 124);
+.textarea_container {
+    width: 100%;
+    height: auto;
+    position: relative;
 }
+
 .textarea_container textarea {
-    width: 90%;
-    margin: 20px;
-    outline: none;
-    padding: 5px;
-    border-radius: 10px;
-    border-top-style: none;
-    border-color: rgb(126, 124, 124);
+    width: 100%;
+    border-color: silver;
+    padding: 5px 2px;
+
 }
 .lets_talk_section {
     width: 40%;
     margin: 10px 5px;
+    padding: 5px 10px;
 
 }
 .lets_talk {
