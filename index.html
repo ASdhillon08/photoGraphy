@@ -1,88 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- stylesheet for css -->
-<link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <!-- stylesheet for css -->
+  <link rel="stylesheet" href="style.css" />
 
- <!-- font form google poppins -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- font form google poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
 
-<title>Photography website</title>
-<body>
+  <title>Photography website</title>
+
+  <body>
     <div class="container">
-        <div class="first_sec">
-            <div class="logo">
-                <img src="images/logo.jpg" alt="Photography logo" style="min-width: 500px;">
-            </div>
-            <div class="nav_side">
-                <div class="nav_menu">
-                    <li><a class="active" href="#"><i class="fa fa-home"></i></a> </li>
-                    <li><a href="#"><i class="fa fa-search"></i></a> </li>
-                    <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                    <li><a href="#"><i class="fa fa-globe"></i></a></li>
-                    <li><a href="#"><i class="fa fa-trash"></i></a></li>
-                </div>
-                <div class="desc">
-                    <p class="heading"><span class="underlineText">Photography</span> Enthusiast</p>             
-                    <p class="quote">Where PASSION meets right angle and enough </p> <img  class="lightBulb" src="images/lightbulb.png" alt="Light Bulb">
+      <div class="first_sec">
+        <div class="logo">
+          <img
+            src="images/logo.jpg"
+            alt="Photography logo"
+            style="min-width: 500px"
+          />
+        </div>
+        <div class="nav_side">
+          <div class="nav_menu">
+            <li>
+              <a class="active" href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-search"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+            </li>
+            <!-- <li>
+              <a href="#"><i class="fa fa-globe"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-trash"></i></a>
+            </li> -->
+          </div>
+          <div class="desc">
+            <p class="heading">
+              <span class="underlineText">Photography</span> Enthusiast
+            </p>
+            <p class="quote">Where PASSION meets right angle and enough</p>
+            <img
+              class="lightBulb"
+              src="images/lightbulb.png"
+              alt="Light Bulb"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="second_sec">
+        <h2 class="heading">What do I do?</h2>
+        <div class="projects_container">
+          <div class="project_type">
+            <img src="images/childParty.jpg" alt="Child Birth party" />
+            <span class="label">Kids Birthday Parties</span>
+          </div>
+          <div class="project_type">
+            <img src="images/wedding.jpg" alt="Wedding party" />
+            <span class="label">Wedding Parties</span>
+          </div>
+          <div class="project_type">
+            <img src="images/annPhoto.jpg" alt="Annversary Photo" />
+            <span class="label">Annversary Parties</span>
+          </div>
+          <div class="project_type">
+            <img src="images/childParty.jpg" alt="Child Birth party" />
+            <span class="label">Kids Parties</span>
+          </div>
+        </div>
+      </div>
+      <div class="third_sec">
+        <h3 class="contact_heading">Fill the form.</h3>
+        <h3 class="contact_heading">It's easy.</h3>
 
-                </div>
-            </div>
-        </div>
-        <div class="second_sec">
-            <h2 class="heading">What do I do?</h2>
-            <div class="projects_container">
-                <div class="project_type">
-                    <img src="images/childParty.jpg" alt="Child Birth party">
-                    <span class="label">Kids Birthday Parties</span>
-                </div>
-                <div class="project_type">
-                    <img src="images/wedding.jpg" alt="Wedding party">
-                    <span class="label">Wedding Parties</span>
-                </div>
-                <div class="project_type">
-                    <img src="images/annPhoto.jpg" alt="Annversary Photo">
-                    <span class="label">Annversary Parties</span>
-                </div>
-                <div class="project_type">
-                    <img src="images/childParty.jpg" alt="Child Birth party">
-                    <span class="label">Kids Parties</span>
-                </div>
-            </div>
-        </div>
-        <div class="third_sec">
-            <h3 class="contact_heading">Fill the form.</h3>
-            <h3 class="contact_heading">It's easy.</h3>
+        <div class="contact_container">
+          <div class="contact_details">
+            <!-- form starts here -->
+            <form
+              method="post"
+              action="https://www.example.com/cgi-bin/FormMail.pl"
+              accept-charset="ISO-8859-1"
+              onsubmit="var   originalCharset = document.charset; document.charset = 'ISO-8859-1';
+                    window.onbeforeunload = function (){document.charset=originalCharset;};"
+            >
+              <div class="firstLastName field">
+                <input type="text" id="fName" placeholder="First name" />
+                <input type="text" id="lName" placeholder="Last name" />
+              </div>
+              <div class="email_container field">
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+              <div class="textarea_container field">
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+              </div>
+              <div class="form_button field">
+                <button class="submit" name="submit_button">Submit</button>
+              </div>
+              <!-- success message -->
+              <!--   <div class="message contact form">
+              <p class="success_message">
+                Thank you! for your message you will be contacted soon!!
+              </p>
+            </div> -->
 
-            <div class="contact_container">
-               
-                <div class="contact_details">
-                    <div class="firstLastName">
-                    <input type="text" id="fName" placeholder="First name">
-                    <input type="text" id="lName" placeholder="Last name">
-                    </div>
-                    <div class="email_container">
-                    <input type="email" id="email" placeholder="Email">
-                    </div>
-                    <div class="textarea_container">
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
-                    </div>
-                </div>
-                <div class="lets_talk_section">
-                    <h4 class="lets_talk">Lets talk about Everything</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, dignissimos? Autem nesciunt esse corrupti doloribus, voluptatibus voluptates facilis! Quos sunt ut perspiciatis aspernatur quibusdam eaque officia ducimus! Ex, animi consequuntur?</p>
-                </div>
-            </div>
+              <!-- form mail hidden input fields  -->
+              <input type="hidden" name="recipient" value="admin@example.com" />
+              <input type="hidden" name="subject" value="Subject" />
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://www.example.com/thanks.html"
+              />
+              <input
+                type="hidden"
+                name="missing_fields_redirect"
+                value="https://www.example.com/error.html"
+              />
+              <input
+                type="hidden"
+                name="required"
+                value="realname,email,Message"
+              />
+            </form>
+          </div>
+          <div class="lets_talk_section">
+            <h4 class="lets_talk">Lets talk about Everything</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
+              dignissimos? Autem nesciunt esse corrupti doloribus, voluptatibus
+              voluptates facilis! Quos sunt ut perspiciatis aspernatur quibusdam
+              eaque officia ducimus! Ex, animi consequuntur?
+            </p>
+          </div>
         </div>
-        <div class="fourth_sec">
-            
-        </div>
+      </div>
+      <div class="fourth_sec"></div>
     </div>
-</body>
+  </body>
 </html>
